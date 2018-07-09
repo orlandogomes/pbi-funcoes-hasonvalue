@@ -1,0 +1,4 @@
+Escala        Divisor  
+Milimetro     1000
+Centimetro    100
+Metro         1

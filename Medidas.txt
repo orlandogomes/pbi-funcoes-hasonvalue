@@ -1,0 +1,24 @@
+Cor Dinamica = 
+    IF(HASONEVALUE(Produtos[ID])=TRUE();
+        VALUES(Produtos[Cor]);
+    "Selecione")
+
+Valor Convertido = 
+IF(HASONEVALUE(Conversor[Escala]);
+   1 * VALUES(Conversor[Divisor]);
+ 1
+ )
+
+
+Valor em Metro = 1
+
+
+Valores COUNTROWS = COUNTROWS(VALUES(Produtos[ID]))=1
+
+
+Valores HASONEVALUE = HASONEVALUE(Produtos[ID])
+
+
+VALUES Incorreto = VALUES(Produtos[Cor])
+
+
